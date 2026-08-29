@@ -19,7 +19,7 @@ export function App() {
   return (
     <main className="mx-auto flex min-h-dvh max-w-xl flex-col justify-center gap-6 px-6">
       <div className="space-y-2">
-        <h1 className="text-3xl font-semibold tracking-tight">Ваш сэндбокс</h1>
+        <h1 className="text-3xl font-semibold tracking-tight">Ваш сэндбокс <span data-marker="e2e-102144">e2e-102144</span></h1>
         <p className="text-muted-foreground">
           Это заготовка приложения: React и Vite на фронте, Hono на сервере. Правьте что угодно —
           после push платформа соберёт и выкатит новую версию.
